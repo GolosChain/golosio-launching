@@ -25,11 +25,11 @@ GLS_PROVIDER_WIF=private-key
 GLS_PROVIDER_USERNAME=username
 ```
 
-`CYBERWAY_HTTP_URL` - адрес ноды блокчейна
-`BLOCKCHAIN_BROADCASTER_URL` - адрес NATS сервера блокчейна
-`GLS_PROVIDER_PUBLIC_KEY` - Публичный ключ аккаунта бендвич провайдера
-`GLS_PROVIDER_WIF` - Приватный ключ аккаунта бендвич провайдера
-`GLS_PROVIDER_USERNAME` - Имя аккаунта бендвич провайдера
+-   `CYBERWAY_HTTP_URL` - адрес ноды блокчейна
+-   `BLOCKCHAIN_BROADCASTER_URL` - адрес NATS сервера блокчейна
+-   `GLS_PROVIDER_PUBLIC_KEY` - Публичный ключ аккаунта бендвич провайдера
+-   `GLS_PROVIDER_WIF` - Приватный ключ аккаунта бендвич провайдера
+-   `GLS_PROVIDER_USERNAME` - Имя аккаунта бендвич провайдера
 
 #### Запуск
 
@@ -62,9 +62,9 @@ GATE_CONNECT=ws://gate-node:8080
 FACADE_CONNECT=http://facade-node:3001
 ```
 
-`CYBERWAY_HTTP_URL` - адрес ноды блокчейна
-`GATE_CONNECT` - адрес микросервиса `gate`
-`FACADE_CONNECT` - адрес микросервиса `facade`
+-   `CYBERWAY_HTTP_URL` - адрес ноды блокчейна
+-   `GATE_CONNECT` - адрес микросервиса `gate`
+-   `FACADE_CONNECT` - адрес микросервиса `facade`
 
 #### Запуск
 
