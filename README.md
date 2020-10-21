@@ -8,7 +8,7 @@
     git clone https://github.com/cyberway/cyberway.launch.git
     ```
 
-2. Запустить скрипт **start_full_node.sh** - для запуска полной ноды с поддержкой nats-streaming сервера
+2. Запустить скрипт **start_full_node.sh** под суперпользователем - для запуска полной ноды с поддержкой nats-streaming сервера
 
 3. Дождаться полной синхронизации ноды
 
