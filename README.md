@@ -96,6 +96,8 @@ cp .env.example .env
 CYBERWAY_HTTP_URL=https://node-cyberway
 GATE_CONNECT=ws://gate-node:8080
 FACADE_CONNECT=http://facade-node:3001
+DOCKER_CONNECTOR_WEB_HOST=0.0.0.0
+DOCKER_CONNECTOR_WEB_PORT=80
 ```
 
 -   `CYBERWAY_HTTP_URL` - адрес ноды блокчейна

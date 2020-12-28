@@ -4,7 +4,7 @@ services:
     container_name: meta-node
     environment:
       - GLS_CONNECTOR_PORT=3031
-      - GLS_MONGO_EXTERNAL_PORT=27018
+      - GLS_MONGO_EXTERNAL_PORT=27028
       - GLS_MONGO_CONNECT=mongodb://meta-mongo/meta
     build:
       context: https://github.com/GolosChain/meta-service.git
@@ -20,7 +20,7 @@ services:
     container_name: meta-mongo
     image: mongo:4
     ports:
-      - 127.0.0.1:27018:27017
+      - 127.0.0.1:27028:27017
     volumes:
       - meta-mongodb-vol:/data/db
     networks:
